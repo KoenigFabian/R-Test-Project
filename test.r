@@ -1,4 +1,4 @@
-setwd("/Users/fabianleisibach/Cloud/UZH/Semester 7/R – A non-technical introduction to big data techniques, team work and interactive visualization/data/")
+setwd("/Users/fabianleisibach/Desktop")
 myData <- fread("transactions.csv")
 str(myData)
 myData[, TransDate:=dmy(TransDate, tz="UTC")]
